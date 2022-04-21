@@ -1,5 +1,5 @@
 // 
-import image from "../imgAndr/img/Уж2.jpg";
+
 
 
 
@@ -10,41 +10,34 @@ const Data = [
     region: "ужгородський",
     churches: [
       {
-        name: "Єпархіальний Храм прп. Амфілохія Почаївського",
-        address: "вул.Станційна, 16а (неподалік залізничного вокзалу).",
-        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d392.13873209936406!2d22.299802104735292!3d48.6101412523904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473919081e53311d%3A0x73ccaa06b3862fff!2sZakarpat%C2%B7s%CA%B9ka%20Yeparkhiya%20Ptsu!5e0!3m2!1sru!2spl!4v1650312198447!5m2!1sru!2spl",
-        img: "",
-      },
-      {
         name: "Храм Святої Тройці (м-н Шахта)",
-        address: "вул.Тімірязєва, 8 (за обласним кардіодиспансером)",
-        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5276.349370893997!2d22.274228493265152!3d48.606499428248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4739190274d41651%3A0x2dd3044ab7ed56c2!2z0JPRgNC10LrQvi3QutCw0YLQvtC70LjRhtGM0LrQsCDQptC10YDQutCy0LAg0J_RgNC10YHQstGP0YLQvtGXINCi0YDRltC50YbRlg!5e0!3m2!1suk!2sua!4v1650392435963!5m2!1suk!2sua",
+        address: "вул.Тімірязєва, 8 ",
+        src: "",
         img: "",
       },
       {
-        name: "Свято-Троїцький храм",
-        address:
-          "вул.Київська набережна, 16 (обабіч театру ім.братів Шерегіїв)",
-        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2637.438665357658!2d22.263901144185706!3d48.62058722653705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473919a3b38202a7%3A0x7b8a657fdbb9568!2z0KHQstGP0YLQviDQotGA0L7QuNGG0LrQuNC5INGF0YDQsNC8!5e0!3m2!1sru!2sua!4v1650375121159!5m2!1sru!2sua",
+        name: "Єпархіальний Храм прп.Амфілохія Почаївського",
+        address: "вул.Станційна,16 а ",
+        src: "",
         img: "",
       },
       {
         name: "Храм Преображення Господнього",
-        address: " вул.Р.Шухевича,8 Б.",
-        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2637.133255789091!2d22.297405715911992!3d48.62643202496451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473919b5d145910f%3A0x3abe3c2fb00899fa!2z0J_RgNC10L7QsdGA0LDQttC10L3RgdGM0LrQsCDQs9GA0LXQutC-LdC60LDRgtC-0LvQuNGG0YzQutCwINGG0LXRgNC60LLQsA!5e0!3m2!1suk!2sua!4v1650392512825!5m2!1suk!2sua",
+        address: "вул.Р.Шухевича,8 Б. ",
+        src: "",
         img: "",
       },
       {
-        name: " Храм св.першомученика і архідиякона Стефана",
-        address: " с.Минай,Ужгородського району вул.Коротка,1 Д.",
-        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21109.079758458513!2d22.26639793955078!3d48.5976878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473919b016b40357%3A0xdf5e8d0ffb5e7b25!2z0KXRgNCw0Lwg0KHQstGP0YLQvtCz0L4g0KHRgtC10YTQsNC90LAg0J_QptCj!5e0!3m2!1suk!2sua!4v1650392769740!5m2!1suk!2sua",
+        name: "Свято-Троїцький храм",
+        address: "вул.Київська набережна, 16 ",
+        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2637.438665357658!2d22.263901144185706!3d48.62058722653705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473919a3b38202a7%3A0x7b8a657fdbb9568!2z0KHQstGP0YLQviDQotGA0L7QuNGG0LrQuNC5INGF0YDQsNC8!5e0!3m2!1sru!2sua!4v1650375121159!5m2!1sru!2sua",
         img: "",
       },
       {
-        name: " Релігійна громада св. Миколая Чудотворця",
-        address: " вул. Корзо, 22",
-        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21098.815360331144!2d22.281350612968208!3d48.62224737490988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473919b6b390d1a3%3A0xc42260bb8b6a21fe!2z0KDQtdC70ZbQs9GW0LnQvdCwINCz0YDQvtC80LDQtNCwINCg0LjQvNGB0YzQutC-LdC60LDRgtC-0LvQuNGG0YzQutC-0Zcg0YbQtdGA0LrQstC4!5e0!3m2!1suk!2sua!4v1650393063228!5m2!1suk!2sua",
-        img: "",
+        name: "Храм св.першомученика і архідиякона Стефана",
+        address: "вул.Київська набережна, 16 ",
+        src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2637.438665357658!2d22.263901144185706!3d48.62058722653705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473919a3b38202a7%3A0x7b8a657fdbb9568!2z0KHQstGP0YLQviDQotGA0L7QuNGG0LrQuNC5INGF0YDQsNC8!5e0!3m2!1sru!2sua!4v1650375121159!5m2!1sru!2sua",
+        img: "с.Минай/вул.Коротка,1 Д.",
       },
     ],
   },
@@ -74,7 +67,7 @@ const Data = [
   },
   {
     city: "Мукачево",
-    region: "мукачевський",
+    region: "мукачівський",
     churches: [
       {
         name: " Храм Успіння Пресвятої Богородиці",
@@ -92,11 +85,11 @@ const Data = [
   },
   {
     city: "Свалява",
-    region: "мукачевський",
+    region: "мукачівський",
     churches: [
       {
-        name: "Церква Різдва Пресвятої Богородиці",
-        address: "вул. Льва Толстого, 14",
+        name: "Храм св. пророка і предтечі Господнього Івана Хрестителя",
+        address: "вул.Асталоша,24.",
         src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3735.4437300486697!2d22.98819422548959!3d48.545541781484815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x10d283e14a3b3d91!2z0KbQtdGA0LrQstCwINCg0ZbQt9C00LLQsCDQn9GA0LXRgdCy0Y_RgtC-0Zcg0JHQvtCz0L7RgNC-0LTQuNGG0ZY!5e0!3m2!1suk!2sua!4v1650393467264!5m2!1suk!2sua",
         img: "",
       },
@@ -120,7 +113,7 @@ const Data = [
     churches: [
       {
         name: "Свято-Троїцько-Михайлівський храм",
-        address: " вул.Можайського,52 В ( біля автостанції)",
+        address: " вул.Можайського,52 ",
         src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.595178097989!2d22.649864915380146!3d48.195150855128745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473844d6a3dd715f%3A0x473e34d1eebc92a5!2z0KHQstGP0YLQvi3QotGA0L7QuNGG0LrQvtCc0LjRhdCw0LnQu9C-0LLRgdC60LjQuSDQodC-0LHQvtGA!5e0!3m2!1sru!2sua!4v1650380744125!5m2!1sru!2sua",
         img: "https://www.google.com/maps/place/%D0%A1%D0%B2%D1%8F%D1%82%D0%BE-%D0%A2%D1%80%D0%BE%D0%B8%D1%86%D0%BA%D0%BE%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9+%D0%A1%D0%BE%D0%B1%D0%BE%D1%80/@48.1951473,22.6520536,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipPajNv9sZaOl_Z4VsH0mq0eCOUAK2gqn3pe7kFq!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPajNv9sZaOl_Z4VsH0mq0eCOUAK2gqn3pe7kFq%3Dw121-h86-k-no!7i1054!8i746!4m9!1m2!2m1!1z0JHQtdGA0LXQs9C-0LLQviDRhtC10YDQutCy0LA!3m5!1s0x473844d6a3dd715f:0x473e34d1eebc92a5!8m2!3d48.1951439!4d22.6520279!15sCh3QkdC10YDQtdCz0L7QstC-INGG0LXRgNC60LLQsJIBD29ydGhvZG94X2NodXJjaA!5m1!1e1#",
       },
@@ -144,7 +137,7 @@ const Data = [
     churches: [
       {
         name: "Храм святих апостолів Петра і Павла ",
-        address: "вул.Шкільна ( на території бувшого районо)",
+        address: "вул.Шкільна ",
         src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1106.0822188968766!2d23.047560121082157!3d48.310271655969814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4738353c947f6d5d%3A0x30105f8e1b105b56!2z0LLRg9C7LiDQqNC60ZbQu9GM0L3QsCwg0IbRgNGI0LDQstCwLCDQl9Cw0LrQsNGA0L_QsNGC0YHRjNC60LAg0L7QsdC70LDRgdGC0Yw!5e0!3m2!1sru!2sua!4v1650279696555!5m2!1sru!2sua",
         img: "https://karpaty.rocks/sites/default/files/photo/history/cerkva_petra_i_pavla_irshava_0.jpg",
       },
@@ -192,7 +185,7 @@ const Data = [
     churches: [
       {
         name: "Храм Різдва св.Івана Предтечі.",
-        address: "вул.Головна,444",
+        address: "вул.Грушевського,207 ",
         src: "",
         img: "немає зображення",
       },
@@ -222,7 +215,7 @@ const Data = [
     churches: [
       {
         name: "Храм Вознесення Господнього ",
-        address: "вул.Б.Хмельницького ( парк ім.Т.Шевченка) ",
+        address: "вул.Б.Хмельницького  ",
         src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7568.888541640172!2d24.204738153856844!3d48.05720440460533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4737a91edbd65f15%3A0x4d9c34b44d4151f6!2sKaplytsya%20Voznesinnya%20Hospodn%CA%B9oho%20Relehiynoi%20Hromady%20Ukrains%CA%B9koi%20Ptskp!5e0!3m2!1sru!2sua!4v1650280812606!5m2!1sru!2sua",
         img: "https://www.google.com/maps/place/Kaplytsya+Voznesinnya+Hospodn%CA%B9oho+Relehiynoi+Hromady+Ukrains%CA%B9koi+Ptskp/@48.0581298,24.2087469,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipNVQWsV6f_O9W7KRLDAN1ECp5JXWNsjndEIIv86!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNVQWsV6f_O9W7KRLDAN1ECp5JXWNsjndEIIv86%3Dw114-h86-k-no!7i4160!8i3120!4m9!1m2!2m1!1z0YDQsNGF0ZbQsiDRhtC10YDQutCy0LA!3m5!1s0x4737a91edbd65f15:0x4d9c34b44d4151f6!8m2!3d48.0581298!4d24.2087469!15sChfRgNCw0YXRltCyINGG0LXRgNC60LLQsFoZIhfRgNCw0YXRltCyINGG0LXRgNC60LLQsJIBBmNoYXBlbJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOak9EaHRhbEIzRUFF!5m1!1e1#",
       },
@@ -240,6 +233,18 @@ const Data = [
       },
     ],
   },
+	{
+		city: "с.Ділове",
+    region: "рахівський",
+    churches: [
+      {
+        name: "Храм Успіння Пресвятої Богородиці  ",
+        address: "вул.Визволення,4 А",
+        src: "",
+        img: "Немає зображення",
+      },
+    ],
+	},
   {
     city: "смт.Ясіня",
     region: "рахівський",
@@ -252,7 +257,7 @@ const Data = [
       },
       {
         name: "Свято-Іллінський храм",
-        address: "вул.Возз'єднання, 181 А (Лопушанка)",
+        address: "вул.Возз'єднання, 181 А ",
         src: "",
         img: "",
       },

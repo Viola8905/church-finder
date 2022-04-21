@@ -5,52 +5,66 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 .title {
-  background-color: #edf0f2;
+  background-color: #ffffff;
   padding: 20px 0;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .img {
   margin-left: 20px;
+	width: fit-content;
+	align-self: center;
 }
-.church-img img{
-	max-width: 500px;
-	max-height: 500px;
+.church-img img {
+  max-width: 500px;
+  max-height: 500px;
+}
+.church-row{
+	width: fit-content;
+	align-self: center;
+	margin: 0 auto;
 }
 .map {
-	width: 500px;
-	height: 500px;
-	border:0;
-	margin-left:20px;
-	
+  width: 500px;
+  height: 500px;
+  border: 0;
+	align-self: center;
+ 
 }
-.ch-name{
-	font-size: 20px;
-	font-weight: 500;
+.ch-name {
+  font-size: 20px;
+  font-weight: 500;
 }
-.ch-address{
-	padding: 10px 10px;
-	color:blue;
+.ch-address {
+  padding: 10px 10px;
+  color: blue;
 }
+
 @media screen and (max-width: 1025px) {
   .img img {
     width: 300px;
   }
-	.church-img img{
-	max-width: 300px;
-	max-height: 300px;
-}
-	.map{
-		width: 300px;
-		height: 300px;
-	}
+  .church-img img {
+    max-width: 300px;
+    max-height: 300px;
+  }
+  .map {
+    width: 300px;
+    height: 300px;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -58,18 +72,58 @@ code {
     width: 300px;
   }
   .img {
-		padding: 0 0 30px 0;
-		margin-left: 0px;
+    padding: 0 0 30px 0;
+    margin-left: 0px;
   }
   .choose-region {
     flex-direction: column-reverse;
   }
-	.church-row{
-		flex-direction: column;
-	}
-	.map{
-		margin-left:0px;
-		align-self: center;
-		margin-top: 20px;
-	}
+  .church-row {
+    flex-direction: column;
+  }
+  .map {
+    margin-left: 0px;
+    align-self: center;
+    margin-top: 20px;
+  }
+
+  .map {
+    width: 250px;
+    height: 250px;
+  }
+	 .img img {
+    width: 270px;
+  }
+	.title {
+  background-color: #ffffff;
+  padding: 10px 0;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.ch-address {
+  padding: 10px 0px;
+ 
+}
+.ch-name {
+  font-size: 15px;
+ 
+}
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+ 
+
+  flex: 1 1 auto;
+  text-align: center;
+  overflow: hidden;
+  backdrop-filter: blur(5px);
+}
+
+.wrapper {
+  background: url("./img/background-church.png")
+    rgba(255, 255, 255, 0.1) 0 0 / cover repeat;
+
+  /* background-color: aquamarine; */
 }
