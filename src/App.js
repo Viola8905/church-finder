@@ -39,9 +39,7 @@ function App() {
           className="church-row"
           style={{ display: "flex", justifyContent: "center" }}
         >
-          {/* <div className="church-img">
-            <img src={} />
-          </div> */}
+         
           {ch.src < 20 ? (
             <div> Немає позначки на карті </div>
           ) : (
@@ -61,8 +59,27 @@ function App() {
   return (
     <div className="wrapper">
       <div className="App">
-        <div className="title">
-          Храми Закарпатської єпархії Православної Церкви України
+        <div className="div">
+          <div
+            className="title"
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <img
+              src="https://art-shop.com.ua/wp-content/uploads/2017/06/prapor-Ukrayini-PNG.png"
+             
+              className="flag1"
+            />
+            Храми Закарпатської єпархії Православної Церкви України
+            <img
+              src="https://art-shop.com.ua/wp-content/uploads/2017/06/prapor-Ukrayini-PNG.png"
+             
+              className="flag2"
+            />
+          </div>
         </div>
         <div
           style={{
@@ -166,7 +183,9 @@ function App() {
           </div>
           {data ? Filter() : <></>}
         </div>
-        <div className="" style={{padding:"5px 0"}}>© Vio </div>
+        <div className="" style={{ padding: "5px 0" }}>
+          © Vio{" "}
+        </div>
       </div>
     </div>
   );
